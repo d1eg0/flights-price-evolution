@@ -1,0 +1,2582 @@
+{
+  "termsOfUse": "https://www.ryanair.com/ie/en/corporate/terms-of-use=AGREED",
+  "currency": "EUR",
+  "currPrecision": 2,
+  "routeGroup": "DOMESTIC",
+  "tripType": "OTHER",
+  "upgradeType": "PLUS",
+  "trips": [
+    {
+      "origin": "PMI",
+      "originName": "Palma Mallorca",
+      "destination": "BCN",
+      "destinationName": "Barcelona T2",
+      "routeGroup": "DOMESTIC",
+      "tripType": "OTHER",
+      "upgradeType": "PLUS",
+      "dates": [
+        {
+          "dateOut": "2020-06-29T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6363~ ~~PMI~06/29/2020 06:30~BCN~06/29/2020 07:25~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "OQPTIDCY2VSQWCENXL7B4H36JVQ6L3GALE4DWQW3WVICILSUQ3DSI6LOZZ2WQ6M3MNHV5DZ2AEDRXJT67JXJYYR3HAZWR32NXFO5EJKI6JV4ESHSD4ZGMVKRQQGOPDHHS573NYR55DW7LZ7IET2VS5QXQCJIXKGSS7Y6Y4E33GHSALYAURDQ",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 19.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 19.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6363",
+                  "time": [
+                    "2020-06-29T06:30:00.000",
+                    "2020-06-29T07:25:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-06-29T04:30:00.000Z",
+                    "2020-06-29T05:25:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6363",
+              "time": [
+                "2020-06-29T06:30:00.000",
+                "2020-06-29T07:25:00.000"
+              ],
+              "timeUTC": [
+                "2020-06-29T04:30:00.000Z",
+                "2020-06-29T05:25:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6579~ ~~PMI~06/29/2020 13:00~BCN~06/29/2020 13:55~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "5FJZDZ3ZGNTHN5DMLS7DZER23UZ3ISEN7ZCARDJZWT4HXCQYS23LEYOJGTEWMZ5R5AJEOBYP46DKVFF7RA4PZDSU7CUN3ZL4IJQCH7QWIA5GUJOMQQCOZ2JOQ62RKJ5HIQXYYYATPD22N6TFBDS7CWYWNS3WK2E5GTWGXRKYNZX2S6RZFFPA",
+                "fareClass": "T",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 19.85,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 19.85,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6579",
+                  "time": [
+                    "2020-06-29T13:00:00.000",
+                    "2020-06-29T13:55:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-06-29T11:00:00.000Z",
+                    "2020-06-29T11:55:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6579",
+              "time": [
+                "2020-06-29T13:00:00.000",
+                "2020-06-29T13:55:00.000"
+              ],
+              "timeUTC": [
+                "2020-06-29T11:00:00.000Z",
+                "2020-06-29T11:55:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2897~ ~~PMI~06/29/2020 14:25~BCN~06/29/2020 15:20~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "OQPTIDCY2VSQWCENXL7B4H36JVQ6L3GALE4DWQW3WVICILSUQ3D53D3OORUAZNCBHVBQUDCMBOEVVYX655QIJC7EL5LTSQSEEN5AOY34QBGQBGDBX5DYIRYZLZRDKCQAWDLO3CV676BIXJFNTKYBN6T6TUPKRNSV3CDK3ZY5YKK3P5MHSV7A",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 19.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 19.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 2897",
+                  "time": [
+                    "2020-06-29T14:25:00.000",
+                    "2020-06-29T15:20:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-06-29T12:25:00.000Z",
+                    "2020-06-29T13:20:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 2897",
+              "time": [
+                "2020-06-29T14:25:00.000",
+                "2020-06-29T15:20:00.000"
+              ],
+              "timeUTC": [
+                "2020-06-29T12:25:00.000Z",
+                "2020-06-29T13:20:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2494~ ~~PMI~06/29/2020 19:45~BCN~06/29/2020 20:35~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "OQPTIDCY2VSQWCENXL7B4H36JVQ6L3GALE4DWQW3WVICILSUQ3D33TSBKQ3X6FA6OKGJYHFA3TCNBE7F523DA63HVYV4DJBVYEMD2VSNSFDZGXVRDF3HJIKMOARBP7WJH46THYKY7NLIZ6LZMY2J7S6PFKGVLUNIPLB4OQ7BP3KK65XZMX4Q",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 19.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 19.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "Lauda",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 2494",
+                  "time": [
+                    "2020-06-29T19:45:00.000",
+                    "2020-06-29T20:35:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-06-29T17:45:00.000Z",
+                    "2020-06-29T18:35:00.000Z"
+                  ],
+                  "duration": "00:50"
+                }
+              ],
+              "flightNumber": "FR 2494",
+              "time": [
+                "2020-06-29T19:45:00.000",
+                "2020-06-29T20:35:00.000"
+              ],
+              "timeUTC": [
+                "2020-06-29T17:45:00.000Z",
+                "2020-06-29T18:35:00.000Z"
+              ],
+              "duration": "00:50"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6369~ ~~PMI~06/29/2020 21:05~BCN~06/29/2020 22:00~~",
+              "infantsLeft": 17,
+              "regularFare": {
+                "fareKey": "OQPTIDCY2VSQWCENXL7B4H36JVQ6L3GALE4DWQW3WVICILSUQ3DYT6EV2BSSJOTC3I4XKPEUWLMSKUSPN5ULKXIBCH6DSGTOUDEQ6LONZMPEH45ECPEYG4LKBNH7FGQATZZNDM55CSXQI6NDEAAV2535VT22PUR3EVMFP4ZGJH3RMWWBQC3Q",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 19.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 19.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6369",
+                  "time": [
+                    "2020-06-29T21:05:00.000",
+                    "2020-06-29T22:00:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-06-29T19:05:00.000Z",
+                    "2020-06-29T20:00:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6369",
+              "time": [
+                "2020-06-29T21:05:00.000",
+                "2020-06-29T22:00:00.000"
+              ],
+              "timeUTC": [
+                "2020-06-29T19:05:00.000Z",
+                "2020-06-29T20:00:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~1343~ ~~PMI~06/29/2020 21:40~BCN~06/29/2020 22:30~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "OQPTIDCY2VSQWCENXL7B4H36JVQ6L3GALE4DWQW3WVICILSUQ3DVW5TI2BQJG65QPETTIRBYIGXBJ7FR7YTGBFLVL2LJNFCUJCWC5726E6EIJ275A6B57MD6CPW42TY3TWRTGPWHFOXPIJ67QEHTMQAWLQVQ3UZFEH4LQJLSNOENQNOIYQIA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 19.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 19.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 1343",
+                  "time": [
+                    "2020-06-29T21:40:00.000",
+                    "2020-06-29T22:30:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-06-29T19:40:00.000Z",
+                    "2020-06-29T20:30:00.000Z"
+                  ],
+                  "duration": "00:50"
+                }
+              ],
+              "flightNumber": "FR 1343",
+              "time": [
+                "2020-06-29T21:40:00.000",
+                "2020-06-29T22:30:00.000"
+              ],
+              "timeUTC": [
+                "2020-06-29T19:40:00.000Z",
+                "2020-06-29T20:30:00.000Z"
+              ],
+              "duration": "00:50"
+            }
+          ]
+        },
+        {
+          "dateOut": "2020-06-30T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6363~ ~~PMI~06/30/2020 06:30~BCN~06/30/2020 07:25~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "OQPTIDCY2VSQWCENXL7B4H36JVQ6L3GALE4DWQW3WVICILSUQ3DSI6LOZZ2WQ6M3MNHV5DZ2AEDRXDTVTINOZ6JL26X2DU64SDAIIT4SCQFOF7UIOUUPQZ4Y4BNR56L27NHUSE5HP23B3K3UZEXNNXDOTMR76WAVNEAVXUYTC3YWJUVJPWOQ",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 19.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 19.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6363",
+                  "time": [
+                    "2020-06-30T06:30:00.000",
+                    "2020-06-30T07:25:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-06-30T04:30:00.000Z",
+                    "2020-06-30T05:25:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6363",
+              "time": [
+                "2020-06-30T06:30:00.000",
+                "2020-06-30T07:25:00.000"
+              ],
+              "timeUTC": [
+                "2020-06-30T04:30:00.000Z",
+                "2020-06-30T05:25:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6579~ ~~PMI~06/30/2020 13:00~BCN~06/30/2020 13:55~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "OQPTIDCY2VSQWCENXL7B4H36JVQ6L3GALE4DWQW3WVICILSUQ3DQQZCYZAL3GW463XBEW2KS6ROUOAMIOIBKDAFOZPSUH3FBO4G5TRMJ25WNP7PY2NTINNNOMEWQK666MWGYPHCAOCEMD6G5I6U5GL6K3DZJ3CJALEAFXKWMG6PGUZSHRBZA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 19.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 19.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6579",
+                  "time": [
+                    "2020-06-30T13:00:00.000",
+                    "2020-06-30T13:55:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-06-30T11:00:00.000Z",
+                    "2020-06-30T11:55:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6579",
+              "time": [
+                "2020-06-30T13:00:00.000",
+                "2020-06-30T13:55:00.000"
+              ],
+              "timeUTC": [
+                "2020-06-30T11:00:00.000Z",
+                "2020-06-30T11:55:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2897~ ~~PMI~06/30/2020 14:25~BCN~06/30/2020 15:20~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "OQPTIDCY2VSQWCENXL7B4H36JVQ6L3GALE4DWQW3WVICILSUQ3D53D3OORUAZNCBHVBQUDCMBOEVUURUIDYDBNUIF4B72FTLENWIXJ42JSBN3PI6WUFLANWKR57GOLLIQX57FQF5ZCUXPOW7HA6DGRCLWFQMATMAOTVTU52GXDDUZLHRYEJA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 19.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 19.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 2897",
+                  "time": [
+                    "2020-06-30T14:25:00.000",
+                    "2020-06-30T15:20:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-06-30T12:25:00.000Z",
+                    "2020-06-30T13:20:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 2897",
+              "time": [
+                "2020-06-30T14:25:00.000",
+                "2020-06-30T15:20:00.000"
+              ],
+              "timeUTC": [
+                "2020-06-30T12:25:00.000Z",
+                "2020-06-30T13:20:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": 4,
+              "flightKey": "FR~2494~ ~~PMI~06/30/2020 20:35~BCN~06/30/2020 21:25~~",
+              "infantsLeft": 17,
+              "regularFare": {
+                "fareKey": "OQPTIDCY2VSQWCENXL7B4H36JVQ6L3GALE4DWQW3WVICILSUQ3D33TSBKQ3X6FA6OKGJYHFA3TCNBSQLLGW6B4ZT5YYYOAOSMJUY66W7HUQE3BVQAG7HJOFN5Z7WVTHRPYIVC3G2CAPLMLYEQBT6PUQUOZJQBSFPPHME3G3RLSCA2EW4T7UA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 19.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 19.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "Lauda",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 2494",
+                  "time": [
+                    "2020-06-30T20:35:00.000",
+                    "2020-06-30T21:25:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-06-30T18:35:00.000Z",
+                    "2020-06-30T19:25:00.000Z"
+                  ],
+                  "duration": "00:50"
+                }
+              ],
+              "flightNumber": "FR 2494",
+              "time": [
+                "2020-06-30T20:35:00.000",
+                "2020-06-30T21:25:00.000"
+              ],
+              "timeUTC": [
+                "2020-06-30T18:35:00.000Z",
+                "2020-06-30T19:25:00.000Z"
+              ],
+              "duration": "00:50"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6369~ ~~PMI~06/30/2020 21:05~BCN~06/30/2020 22:00~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "OQPTIDCY2VSQWCENXL7B4H36JVQ6L3GALE4DWQW3WVICILSUQ3DYT6EV2BSSJOTC3I4XKPEUWLMSKEXHALIAZNYGEHBJXZRLJKEGFSJIWNGOLOUEKP3FQLSNRPJQL7ZWNQ5LZRVYWGFNYKFSV23RJMNTOKOFSF2IEDK7ESQQRTRYBSAPKJZQ",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 19.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 19.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6369",
+                  "time": [
+                    "2020-06-30T21:05:00.000",
+                    "2020-06-30T22:00:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-06-30T19:05:00.000Z",
+                    "2020-06-30T20:00:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6369",
+              "time": [
+                "2020-06-30T21:05:00.000",
+                "2020-06-30T22:00:00.000"
+              ],
+              "timeUTC": [
+                "2020-06-30T19:05:00.000Z",
+                "2020-06-30T20:00:00.000Z"
+              ],
+              "duration": "00:55"
+            }
+          ]
+        },
+        {
+          "dateOut": "2020-07-01T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6363~ ~~PMI~07/01/2020 06:30~BCN~07/01/2020 07:25~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PN4D37UGGDT3ZQHXUSN2DZYFDSO57ZVOLKMYYR7YAQAU23SI6XOQ2L3VULOVU2OB22PBNRZ3Q3SWNMGK6BJEXGKUBKNH247DVQW2NVA246MUBRCUDXPF2VIC5LLPYQUVILS7J3NFZLLC23F2ULKX56KEO7TRP6WDRF2NESIOXJH2AALXTA7Q",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 17.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 17.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6363",
+                  "time": [
+                    "2020-07-01T06:30:00.000",
+                    "2020-07-01T07:25:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-01T04:30:00.000Z",
+                    "2020-07-01T05:25:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6363",
+              "time": [
+                "2020-07-01T06:30:00.000",
+                "2020-07-01T07:25:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-01T04:30:00.000Z",
+                "2020-07-01T05:25:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6579~ ~~PMI~07/01/2020 13:00~BCN~07/01/2020 13:55~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PN4D37UGGDT3ZQHXUSN2DZYFDSO57ZVOLKMYYR7YAQAU23SI6XO6VDAOBVDXIEL2UWHR7UQFWHPB3PKTFXCC5NWCXSDMSW7R7VBEXBUEDTYNN76DTKD3GY7R5VQY2K2A7WRZMVAYKOZOFQQ4SMYGMBYIHLEHBEKINMJIOSKFWIZEMYJ3Q3EA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 17.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 17.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6579",
+                  "time": [
+                    "2020-07-01T13:00:00.000",
+                    "2020-07-01T13:55:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-01T11:00:00.000Z",
+                    "2020-07-01T11:55:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6579",
+              "time": [
+                "2020-07-01T13:00:00.000",
+                "2020-07-01T13:55:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-01T11:00:00.000Z",
+                "2020-07-01T11:55:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": 1,
+              "flightKey": "FR~2897~ ~~PMI~07/01/2020 14:25~BCN~07/01/2020 15:20~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PN4D37UGGDT3ZQHXUSN2DZYFDSO57ZVOLKMYYR7YAQAU23SI6XOXAJ72OUK2APAF2OZ7YUYVYNKBZ7OYHN5LMFGAGSOPSKOEHAJOZABHVCVIS7EYF66GVP45TFOESLNE7JGNVNZGRSVZ5COCMPWGK55JUMXMURTU6LZJZQUG3PLL2U2GTJQQ",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 17.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 17.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 2897",
+                  "time": [
+                    "2020-07-01T14:25:00.000",
+                    "2020-07-01T15:20:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-01T12:25:00.000Z",
+                    "2020-07-01T13:20:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 2897",
+              "time": [
+                "2020-07-01T14:25:00.000",
+                "2020-07-01T15:20:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-01T12:25:00.000Z",
+                "2020-07-01T13:20:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": 5,
+              "flightKey": "FR~2494~ ~~PMI~07/01/2020 20:45~BCN~07/01/2020 21:35~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PN4D37UGGDT3ZQHXUSN2DZYFDSO57ZVOLKMYYR7YAQAU23SI6XO2S63FUV6DNIM2TAN4PMB6G4NRIR5VO6CQGYP6GHA4DTYXH3HQAOA34J2PIPPZKG7IJCRFZOKQZIS3BTBAJ6NEEZTUDCKDPANUYN7MYQQCVPMBI3OBMHQ75LWEDYWXFWWA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 17.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 17.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "Lauda",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 2494",
+                  "time": [
+                    "2020-07-01T20:45:00.000",
+                    "2020-07-01T21:35:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-01T18:45:00.000Z",
+                    "2020-07-01T19:35:00.000Z"
+                  ],
+                  "duration": "00:50"
+                }
+              ],
+              "flightNumber": "FR 2494",
+              "time": [
+                "2020-07-01T20:45:00.000",
+                "2020-07-01T21:35:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-01T18:45:00.000Z",
+                "2020-07-01T19:35:00.000Z"
+              ],
+              "duration": "00:50"
+            },
+            {
+              "faresLeft": 2,
+              "flightKey": "FR~6369~ ~~PMI~07/01/2020 21:05~BCN~07/01/2020 22:00~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PN4D37UGGDT3ZQHXUSN2DZYFDSO57ZVOLKMYYR7YAQAU23SI6XOYKDNH6XFAIN4TVJO3BNCAF6HVN5OO2WXUC6B2BN72AO46WEMVXU55NNAFLQ4ZJLJ2YEBMXRE2WE4B67GJAI7GMKJ27WKZNVTDLFNZKNICWFF3WRTVMOKIN525RAXDG22Q",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 17.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 17.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6369",
+                  "time": [
+                    "2020-07-01T21:05:00.000",
+                    "2020-07-01T22:00:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-01T19:05:00.000Z",
+                    "2020-07-01T20:00:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6369",
+              "time": [
+                "2020-07-01T21:05:00.000",
+                "2020-07-01T22:00:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-01T19:05:00.000Z",
+                "2020-07-01T20:00:00.000Z"
+              ],
+              "duration": "00:55"
+            }
+          ]
+        },
+        {
+          "dateOut": "2020-07-02T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": 2,
+              "flightKey": "FR~6363~ ~~PMI~07/02/2020 06:25~BCN~07/02/2020 07:20~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PN4D37UGGDT3ZQHXUSN2DZYFDSO57ZVOLKMYYR7YAQAU23SI6XOQ2L3VULOVU2OB22PBNRZ3Q3SWNJVK6NKGWLH42BSCYNRVX2F77JPJW4Z7ZIO752PJZKZ6T23EHLFLVY33LWBCKPSCTILXMCKB4OB7K4OPAAJXCLBTBK2BJGEA4MFMM26A",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 17.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 17.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6363",
+                  "time": [
+                    "2020-07-02T06:25:00.000",
+                    "2020-07-02T07:20:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-02T04:25:00.000Z",
+                    "2020-07-02T05:20:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6363",
+              "time": [
+                "2020-07-02T06:25:00.000",
+                "2020-07-02T07:20:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-02T04:25:00.000Z",
+                "2020-07-02T05:20:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": 1,
+              "flightKey": "FR~6579~ ~~PMI~07/02/2020 13:00~BCN~07/02/2020 13:55~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "QSLKE2I23FVVUEUYJDMHEJ35SFTQRD3NCEAHBXVFFQMAWDF6OCKPO6XR3SXSSDI253YGBLSVODWSBFOXKDJKKMTMVSEJH6IJLHGE6OYUTLXXNPQZ7YZ52GRKNM2CGFR3CYNBXKHR5VCA32EU2PRSI7EAO2AA24LAADSA52SIRYYAIXQ4ECWA",
+                "fareClass": "W",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 27.06,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 27.06,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6579",
+                  "time": [
+                    "2020-07-02T13:00:00.000",
+                    "2020-07-02T13:55:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-02T11:00:00.000Z",
+                    "2020-07-02T11:55:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6579",
+              "time": [
+                "2020-07-02T13:00:00.000",
+                "2020-07-02T13:55:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-02T11:00:00.000Z",
+                "2020-07-02T11:55:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2897~ ~~PMI~07/02/2020 16:55~BCN~07/02/2020 17:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PN4D37UGGDT3ZQHXUSN2DZYFDSO57ZVOLKMYYR7YAQAU23SI6XOXAJ72OUK2APAF2OZ7YUYVYNKBYYAQZ3U4HM6RHQNRVWWYB6O3K3D3BYWZJGBQK5PJKCLWNJPOMG7YMMCZCXZIEAM4DTH7G4BIRFWBPPNK7ITYY3CRZO5RCTTSOSABO4ZQ",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 17.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 17.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 2897",
+                  "time": [
+                    "2020-07-02T16:55:00.000",
+                    "2020-07-02T17:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-02T14:55:00.000Z",
+                    "2020-07-02T15:50:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 2897",
+              "time": [
+                "2020-07-02T16:55:00.000",
+                "2020-07-02T17:50:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-02T14:55:00.000Z",
+                "2020-07-02T15:50:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": 2,
+              "flightKey": "FR~2494~ ~~PMI~07/02/2020 19:45~BCN~07/02/2020 20:35~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PN4D37UGGDT3ZQHXUSN2DZYFDSO57ZVOLKMYYR7YAQAU23SI6XO2S63FUV6DNIM2TAN4PMB6G4NRJ5UQI5HRF5Y7VEYFC5Z5YIPHINNH4B22AN55GZ4Y63TXBPSFNBTBC3VHDK4YSA5TWO2F2VEBELE2YHWZEDU6W3T23JEKYN3PGILEI2RQ",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 17.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 17.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "Lauda",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 2494",
+                  "time": [
+                    "2020-07-02T19:45:00.000",
+                    "2020-07-02T20:35:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-02T17:45:00.000Z",
+                    "2020-07-02T18:35:00.000Z"
+                  ],
+                  "duration": "00:50"
+                }
+              ],
+              "flightNumber": "FR 2494",
+              "time": [
+                "2020-07-02T19:45:00.000",
+                "2020-07-02T20:35:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-02T17:45:00.000Z",
+                "2020-07-02T18:35:00.000Z"
+              ],
+              "duration": "00:50"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6369~ ~~PMI~07/02/2020 21:05~BCN~07/02/2020 22:00~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PN4D37UGGDT3ZQHXUSN2DZYFDSO57ZVOLKMYYR7YAQAU23SI6XOYKDNH6XFAIN4TVJO3BNCAF6HVMDJOSAWQS4N3P6PGE2VVXS6WNSQE3NK76LZCTKRR4IJUHR3TKGKRPCLRBICFE2J6Q2XRBSFPJF6UGSQJQTTPLLNSQQNIXA2CDNWAY5ZA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 17.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 17.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6369",
+                  "time": [
+                    "2020-07-02T21:05:00.000",
+                    "2020-07-02T22:00:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-02T19:05:00.000Z",
+                    "2020-07-02T20:00:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6369",
+              "time": [
+                "2020-07-02T21:05:00.000",
+                "2020-07-02T22:00:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-02T19:05:00.000Z",
+                "2020-07-02T20:00:00.000Z"
+              ],
+              "duration": "00:55"
+            }
+          ]
+        },
+        {
+          "dateOut": "2020-07-03T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6363~ ~~PMI~07/03/2020 06:30~BCN~07/03/2020 07:25~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PN4D37UGGDT3ZQHXUSN2DZYFDSO57ZVOLKMYYR7YAQAU23SI6XOQ2L3VULOVU2OB22PBNRZ3Q3SWN3B6VGDQKRSHNI4PLTG2SPTAGE2NMITI5LRBUPNNBFODAJ6BYDITVH4DFU4CFI2UKK2DQXSOXHGH2O7YEA2USKHWFWWP5ATKU6IP2BMQ",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 17.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 17.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6363",
+                  "time": [
+                    "2020-07-03T06:30:00.000",
+                    "2020-07-03T07:25:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-03T04:30:00.000Z",
+                    "2020-07-03T05:25:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6363",
+              "time": [
+                "2020-07-03T06:30:00.000",
+                "2020-07-03T07:25:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-03T04:30:00.000Z",
+                "2020-07-03T05:25:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6579~ ~~PMI~07/03/2020 13:00~BCN~07/03/2020 13:55~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PLE4ZG56V3S5YORIG2HINGILI3JECRT2FP27VXZKCYMJDUOJNPJKJGCFG2V5VOEKQS7FSDINCAR5DXOY22J7H3AZCS3NJOYC7TGWY7F4V2R2PFN7OOYHWUWDMHQG4YPQIHVIDWQM3DOBN5WDL3LA4DTMVLNYESAHWCE35W56HGAUBBLYFCOQ",
+                "fareClass": "A",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 32.21,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 32.21,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6579",
+                  "time": [
+                    "2020-07-03T13:00:00.000",
+                    "2020-07-03T13:55:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-03T11:00:00.000Z",
+                    "2020-07-03T11:55:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6579",
+              "time": [
+                "2020-07-03T13:00:00.000",
+                "2020-07-03T13:55:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-03T11:00:00.000Z",
+                "2020-07-03T11:55:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2897~ ~~PMI~07/03/2020 16:50~BCN~07/03/2020 17:45~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "QSLKE2I23FVVUEUYJDMHEJ35SFTQRD3NCEAHBXVFFQMAWDF6OCKFG6RPZ32GLXY25SVWKJKEXZYP4JY2FCZBTGA3RW6SMWIRSIADFHL7UDEZNAOA3EZIE2OF5UXXKUU24I5D6VHVTBUVFUDPULUNOYMGTJX56ZYI7PEPYPP3E2PQCVH7KWMA",
+                "fareClass": "W",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 27.06,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 27.06,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 2897",
+                  "time": [
+                    "2020-07-03T16:50:00.000",
+                    "2020-07-03T17:45:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-03T14:50:00.000Z",
+                    "2020-07-03T15:45:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 2897",
+              "time": [
+                "2020-07-03T16:50:00.000",
+                "2020-07-03T17:45:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-03T14:50:00.000Z",
+                "2020-07-03T15:45:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2494~ ~~PMI~07/03/2020 19:45~BCN~07/03/2020 20:35~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PN4D37UGGDT3ZQHXUSN2DZYFDSO57ZVOLKMYYR7YAQAU23SI6XO2S63FUV6DNIM2TAN4PMB6G4NRJWHVCRNXND7Y4HRJIVXQ5BH6CIQ73V52HT3FGR6CF2KQ7ZD3JCKPQXNOJT4W2M2UQYOLGD76FPFS7IMB67UZH327J2S4CWG5JXI456SA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 17.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 17.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "Lauda",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 2494",
+                  "time": [
+                    "2020-07-03T19:45:00.000",
+                    "2020-07-03T20:35:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-03T17:45:00.000Z",
+                    "2020-07-03T18:35:00.000Z"
+                  ],
+                  "duration": "00:50"
+                }
+              ],
+              "flightNumber": "FR 2494",
+              "time": [
+                "2020-07-03T19:45:00.000",
+                "2020-07-03T20:35:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-03T17:45:00.000Z",
+                "2020-07-03T18:35:00.000Z"
+              ],
+              "duration": "00:50"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6369~ ~~PMI~07/03/2020 21:05~BCN~07/03/2020 22:00~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PN4D37UGGDT3ZQHXUSN2DZYFDSO57ZVOLKMYYR7YAQAU23SI6XOYKDNH6XFAIN4TVJO3BNCAF6HVMHSLYYFMTTUXYS7KIO7J5BGDZMZJZI3BVSNCXEOG37ZVWFDW4TMVHUGZJ2ZDYXRDVRY6VFQ35RJBSLIRVZ6TBYHE35ZS42PRHR34LVPQ",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 17.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 17.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "PMI",
+                  "destination": "BCN",
+                  "flightNumber": "FR 6369",
+                  "time": [
+                    "2020-07-03T21:05:00.000",
+                    "2020-07-03T22:00:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-03T19:05:00.000Z",
+                    "2020-07-03T20:00:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 6369",
+              "time": [
+                "2020-07-03T21:05:00.000",
+                "2020-07-03T22:00:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-03T19:05:00.000Z",
+                "2020-07-03T20:00:00.000Z"
+              ],
+              "duration": "00:55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "origin": "BCN",
+      "originName": "Palma Mallorca",
+      "destination": "PMI",
+      "destinationName": "Barcelona T2",
+      "routeGroup": "DOMESTIC",
+      "tripType": "OTHER",
+      "upgradeType": "PLUS",
+      "dates": [
+        {
+          "dateOut": "2020-07-16T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6362~ ~~BCN~07/16/2020 07:55~PMI~07/16/2020 08:55~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "O5RSQMD4GJZOWPJNQ6X7WEQCYWKSXGCWMQO56KGZJLKWOTQWF2TGCNWNI6277M7MAFH6PXY5YK346W3LQZPDWS7UWLDAL64ZLSAZVZWXBJFMNROPJVXQHD5OCSIODTAHQGWO22XGXB4IOROG6HG4Z35Z4RMNZZOYRUQFYB7LZIZDWLFLOR2Q",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 21.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 21.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6362",
+                  "time": [
+                    "2020-07-16T07:55:00.000",
+                    "2020-07-16T08:55:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-16T05:55:00.000Z",
+                    "2020-07-16T06:55:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 6362",
+              "time": [
+                "2020-07-16T07:55:00.000",
+                "2020-07-16T08:55:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-16T05:55:00.000Z",
+                "2020-07-16T06:55:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6578~ ~~BCN~07/16/2020 14:30~PMI~07/16/2020 15:30~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "5FJZDZ3ZGNTHN5DMLS7DZER23WBRUSO7OMJE6YYC65TNDLDEQRNZNDIM75UKOTTRYJEKUS72JWMPDPRAQQORWQOQSD5QUFOPH4Z5PYUE436IE7SOBV6E5R2MD6XXD4XAJAJ5ND3FU3LXVNSJPJYUCAV47XMNL5PP47E2ISFS6SX3S4M3PNXA",
+                "fareClass": "T",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 23.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 23.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6578",
+                  "time": [
+                    "2020-07-16T14:30:00.000",
+                    "2020-07-16T15:30:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-16T12:30:00.000Z",
+                    "2020-07-16T13:30:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 6578",
+              "time": [
+                "2020-07-16T14:30:00.000",
+                "2020-07-16T15:30:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-16T12:30:00.000Z",
+                "2020-07-16T13:30:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2896~ ~~BCN~07/16/2020 15:00~PMI~07/16/2020 16:00~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "5FJZDZ3ZGNTHN5DMLS7DZER23WBRUSO7OMJE6YYC65TNDLDEQRNQ34DVE4GWZKU52LSDLANVR5FOYUNEBY2LV7NNOMBXZMZUXNFGFGYQB42GGJU5IDBOLXHHWZC5RNZGUEDEKSVA3HO4NVUZANNUT5JVWOGODCYXWRYP2URTF5U2JB4TE6KQ",
+                "fareClass": "T",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 23.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 23.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 2896",
+                  "time": [
+                    "2020-07-16T15:00:00.000",
+                    "2020-07-16T16:00:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-16T13:00:00.000Z",
+                    "2020-07-16T14:00:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 2896",
+              "time": [
+                "2020-07-16T15:00:00.000",
+                "2020-07-16T16:00:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-16T13:00:00.000Z",
+                "2020-07-16T14:00:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2495~ ~~BCN~07/16/2020 21:10~PMI~07/16/2020 22:05~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "O5RSQMD4GJZOWPJNQ6X7WEQCYWKSXGCWMQO56KGZJLKWOTQWF2TMRTSOBPHA34DBEGD6ZQANUR6S6K5AORFIFGQU6JEAE5R3MIFYQWDMN22HB533QXEBCLM4LFIWTZHSXR7ULIFYESFMGPDJQSBY5XWXVEBU332PMGQ5ZCVMIUQJQVEFKHTA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 21.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 21.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "Lauda",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 2495",
+                  "time": [
+                    "2020-07-16T21:10:00.000",
+                    "2020-07-16T22:05:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-16T19:10:00.000Z",
+                    "2020-07-16T20:05:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 2495",
+              "time": [
+                "2020-07-16T21:10:00.000",
+                "2020-07-16T22:05:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-16T19:10:00.000Z",
+                "2020-07-16T20:05:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": 4,
+              "flightKey": "FR~6368~ ~~BCN~07/16/2020 22:35~PMI~07/16/2020 23:35~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "5FJZDZ3ZGNTHN5DMLS7DZER23WBRUSO7OMJE6YYC65TNDLDEQRNRB4DCIY3E2KJRUBYWULT5T2D6ESJPHDCCR7ORDPSH7QSTXSHDG4GQQFH2AMLQ5GAAPVAODE2MRDKHW2DYXOYPUVVNBO2BYDSRFUMUALKSC2NTRULOJONYHYOTGWHBRM2A",
+                "fareClass": "T",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 23.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 23.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6368",
+                  "time": [
+                    "2020-07-16T22:35:00.000",
+                    "2020-07-16T23:35:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-16T20:35:00.000Z",
+                    "2020-07-16T21:35:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 6368",
+              "time": [
+                "2020-07-16T22:35:00.000",
+                "2020-07-16T23:35:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-16T20:35:00.000Z",
+                "2020-07-16T21:35:00.000Z"
+              ],
+              "duration": "01:00"
+            }
+          ]
+        },
+        {
+          "dateOut": "2020-07-17T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6362~ ~~BCN~07/17/2020 08:00~PMI~07/17/2020 09:00~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "O5RSQMD4GJZOWPJNQ6X7WEQCYWKSXGCWMQO56KGZJLKWOTQWF2TGCNWNI6277M7MAFH6PXY5YK346R27L76JRFVVMVAN6DQNO4IYGSUCVZHRYVHXT66SJTF5XKUUSQ4GR65QASPKHW6D7Z57I66Z7LNATGAGNZXRPDARC2FXGXYIWRWBIWCQ",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 21.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 21.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6362",
+                  "time": [
+                    "2020-07-17T08:00:00.000",
+                    "2020-07-17T09:00:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-17T06:00:00.000Z",
+                    "2020-07-17T07:00:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 6362",
+              "time": [
+                "2020-07-17T08:00:00.000",
+                "2020-07-17T09:00:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-17T06:00:00.000Z",
+                "2020-07-17T07:00:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6578~ ~~BCN~07/17/2020 14:30~PMI~07/17/2020 15:30~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PLE4ZG56V3S5YORIG2HINGILI2PCR7XM7WX7HRKDOOYAG7VHPESQFC2NYHGVNNA537VVCM3ZNPNBW7YZAGOURT32BGKXLJRAQQRO5DEL3F77GOYFQSRAVQBK4P6ZQTA2X5GCDQQ3YOEYULT5LGRGEDQDXVD5BSD6A5JLO4OVUSHCXIISY5GQ",
+                "fareClass": "A",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 39.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 39.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6578",
+                  "time": [
+                    "2020-07-17T14:30:00.000",
+                    "2020-07-17T15:30:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-17T12:30:00.000Z",
+                    "2020-07-17T13:30:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 6578",
+              "time": [
+                "2020-07-17T14:30:00.000",
+                "2020-07-17T15:30:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-17T12:30:00.000Z",
+                "2020-07-17T13:30:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2896~ ~~BCN~07/17/2020 15:15~PMI~07/17/2020 16:15~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "QSLKE2I23FVVUEUYJDMHEJ35SEP7HRULGFCJCD37RX4POAANCDQEC3CHVHYJ2OWZQC2O2DSO4ZAK2FZ6CUNIKOD5Z6ZXZLURZZYILDM2PTHYIDKJ7FOGVMSLGRFQGC3JLS4Y2277KEJX6NNURX4OESUKZIIGSDYOHAKCSBB7H67IYKYYHAVQ",
+                "fareClass": "W",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 30.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 30.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 2896",
+                  "time": [
+                    "2020-07-17T15:15:00.000",
+                    "2020-07-17T16:15:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-17T13:15:00.000Z",
+                    "2020-07-17T14:15:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 2896",
+              "time": [
+                "2020-07-17T15:15:00.000",
+                "2020-07-17T16:15:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-17T13:15:00.000Z",
+                "2020-07-17T14:15:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": 2,
+              "flightKey": "FR~2495~ ~~BCN~07/17/2020 21:10~PMI~07/17/2020 22:05~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "QSLKE2I23FVVUEUYJDMHEJ35SEP7HRULGFCJCD37RX4POAANCDQJS4IERMFZLEEKKGQPU3BNFPODHBDBZ5S2WF5ZNJC77BVAD2V2DHNWRHI4C5KRH4UPXYUFIO7WXORNA4BX3J5S3HSVPQ6QU5ZG5I4GXY2P3E7WS5S4NTRT3QXUNKNVZJ3Q",
+                "fareClass": "W",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 30.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 30.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "Lauda",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 2495",
+                  "time": [
+                    "2020-07-17T21:10:00.000",
+                    "2020-07-17T22:05:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-17T19:10:00.000Z",
+                    "2020-07-17T20:05:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 2495",
+              "time": [
+                "2020-07-17T21:10:00.000",
+                "2020-07-17T22:05:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-17T19:10:00.000Z",
+                "2020-07-17T20:05:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6368~ ~~BCN~07/17/2020 22:35~PMI~07/17/2020 23:35~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "QSLKE2I23FVVUEUYJDMHEJ35SEP7HRULGFCJCD37RX4POAANCDQDLMCGVS35K5CQGOV3Z2ELW52RFVZLOPME42LXHR25JMBGZVJ7JJVHPW5T25ZW6AMXMX3OJQ5SJQACYJQTRKBUCMX7AB4FIC2SPBCXCKNICKCG2GUJ3W4SXP6MRELPIB6Q",
+                "fareClass": "W",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 30.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 30.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6368",
+                  "time": [
+                    "2020-07-17T22:35:00.000",
+                    "2020-07-17T23:35:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-17T20:35:00.000Z",
+                    "2020-07-17T21:35:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 6368",
+              "time": [
+                "2020-07-17T22:35:00.000",
+                "2020-07-17T23:35:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-17T20:35:00.000Z",
+                "2020-07-17T21:35:00.000Z"
+              ],
+              "duration": "01:00"
+            }
+          ]
+        },
+        {
+          "dateOut": "2020-07-18T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": 5,
+              "flightKey": "FR~6368~ ~~BCN~07/18/2020 05:45~PMI~07/18/2020 06:45~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "5FJZDZ3ZGNTHN5DMLS7DZER23WBRUSO7OMJE6YYC65TNDLDEQRNRB4DCIY3E2KJRUBYWULT5T2D6FHTOR7RJR6XG2WJW2H6Y263WHL4URBGXIGEIYMP7GDQJ6P3PYET6VAX4PEXA454DNOPSSHT3OAM7MN5LBR6M2KQXGD7WN7MOJ5ZWNZJA",
+                "fareClass": "T",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 23.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 23.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6368",
+                  "time": [
+                    "2020-07-18T05:45:00.000",
+                    "2020-07-18T06:45:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-18T03:45:00.000Z",
+                    "2020-07-18T04:45:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 6368",
+              "time": [
+                "2020-07-18T05:45:00.000",
+                "2020-07-18T06:45:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-18T03:45:00.000Z",
+                "2020-07-18T04:45:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6362~ ~~BCN~07/18/2020 08:00~PMI~07/18/2020 09:00~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "O5RSQMD4GJZOWPJNQ6X7WEQCYWKSXGCWMQO56KGZJLKWOTQWF2TGCNWNI6277M7MAFH6PXY5YK3477GQTZPQSLPS7BRMQWZ4I5KOFUWHAE45E4JECAQ5DNAAD4QK5UQSQMWNOKXFK6NQGUULQRCF3RZ2GU2L2OWVXNWLTWD754SN33W27DUA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 21.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 21.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6362",
+                  "time": [
+                    "2020-07-18T08:00:00.000",
+                    "2020-07-18T09:00:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-18T06:00:00.000Z",
+                    "2020-07-18T07:00:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 6362",
+              "time": [
+                "2020-07-18T08:00:00.000",
+                "2020-07-18T09:00:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-18T06:00:00.000Z",
+                "2020-07-18T07:00:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": 4,
+              "flightKey": "FR~2896~ ~~BCN~07/18/2020 12:50~PMI~07/18/2020 13:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "QSLKE2I23FVVUEUYJDMHEJ35SEP7HRULGFCJCD37RX4POAANCDQEC3CHVHYJ2OWZQC2O2DSO4ZAK3PDBGPGJL5CT3A5OSE6Z4DGR7BR3NCK5PHZIAYD42OSSG5LLGHVHERYTPSSCI3YWNUVBAG3OC2MI57URNAD6YIJ2PU7SU5N2PMPZ3HKA",
+                "fareClass": "W",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 30.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 30.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 2896",
+                  "time": [
+                    "2020-07-18T12:50:00.000",
+                    "2020-07-18T13:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-18T10:50:00.000Z",
+                    "2020-07-18T11:50:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 2896",
+              "time": [
+                "2020-07-18T12:50:00.000",
+                "2020-07-18T13:50:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-18T10:50:00.000Z",
+                "2020-07-18T11:50:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2495~ ~~BCN~07/18/2020 23:10~PMI~07/19/2020 00:05~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "O5RSQMD4GJZOWPJNQ6X7WEQCYWKSXGCWMQO56KGZJLKWOTQWF2TMRTSOBPHA34DBEGD6ZQANUR6S6UHFRFIIJWFSTAUSW4ZQXSQSZ73T3TWNMVGB32NODOK7XQWAZO4X5GUPYHKC3CL3FXUQ5BLKVBCZHVUMVMWWQCFEWEEOX3VNKVESGSIQ",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 21.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 21.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "Lauda",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 2495",
+                  "time": [
+                    "2020-07-18T23:10:00.000",
+                    "2020-07-19T00:05:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-18T21:10:00.000Z",
+                    "2020-07-18T22:05:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 2495",
+              "time": [
+                "2020-07-18T23:10:00.000",
+                "2020-07-19T00:05:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-18T21:10:00.000Z",
+                "2020-07-18T22:05:00.000Z"
+              ],
+              "duration": "00:55"
+            }
+          ]
+        },
+        {
+          "dateOut": "2020-07-19T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6362~ ~~BCN~07/19/2020 08:00~PMI~07/19/2020 09:00~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "O5RSQMD4GJZOWPJNQ6X7WEQCYWKSXGCWMQO56KGZJLKWOTQWF2TGCNWNI6277M7MAFH6PXY5YK3463I6NYY7S5NRBVVJIPDHMDX2SEUEZJ4BCXL5BAHX2FZ7FZVPRVFIJJXKJEZGOQINNRONJT62OSQMZSB4WWWUFH4AJEIJURNDWVWSGXHA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 21.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 21.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6362",
+                  "time": [
+                    "2020-07-19T08:00:00.000",
+                    "2020-07-19T09:00:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-19T06:00:00.000Z",
+                    "2020-07-19T07:00:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 6362",
+              "time": [
+                "2020-07-19T08:00:00.000",
+                "2020-07-19T09:00:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-19T06:00:00.000Z",
+                "2020-07-19T07:00:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2896~ ~~BCN~07/19/2020 12:50~PMI~07/19/2020 13:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "PLE4ZG56V3S5YORIG2HINGILI2PCR7XM7WX7HRKDOOYAG7VHPES6EK7ANZQAPBZLKSPXZHKKJTCP3JD7IWOK6VRMC7SZPACTA7RC56DZ7OFD3LWVXMXRKFRNZUYDNROFBI375WWLXG5INFNX6EYNK7JR4KRWWTQE2QECXDOEFLRFD5CDTV3Q",
+                "fareClass": "A",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 39.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 39.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 2896",
+                  "time": [
+                    "2020-07-19T12:50:00.000",
+                    "2020-07-19T13:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-19T10:50:00.000Z",
+                    "2020-07-19T11:50:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 2896",
+              "time": [
+                "2020-07-19T12:50:00.000",
+                "2020-07-19T13:50:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-19T10:50:00.000Z",
+                "2020-07-19T11:50:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6578~ ~~BCN~07/19/2020 14:30~PMI~07/19/2020 15:30~~",
+              "infantsLeft": 17,
+              "regularFare": {
+                "fareKey": "QSLKE2I23FVVUEUYJDMHEJ35SEP7HRULGFCJCD37RX4POAANCDQJGVQ6AOKN2NYFPHGXX5E62DMJWRE5YZXSSDQ37WBJBT5TY3AR6MRDBQGM4JQO4E6VUAQUM2L4WCSC6NFNHGWJOZLR6GCZXCQJJGGVDAY56PXUU3NTWFF6CDIAJ7MO5BWA",
+                "fareClass": "W",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 30.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 30.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6578",
+                  "time": [
+                    "2020-07-19T14:30:00.000",
+                    "2020-07-19T15:30:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-19T12:30:00.000Z",
+                    "2020-07-19T13:30:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 6578",
+              "time": [
+                "2020-07-19T14:30:00.000",
+                "2020-07-19T15:30:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-19T12:30:00.000Z",
+                "2020-07-19T13:30:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2495~ ~~BCN~07/19/2020 21:10~PMI~07/19/2020 22:05~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "MUGF2PCSAYQBBSFFGLQ6L7GQFWWTWZJNJKNT3FQK765QSZAKPOMSJSPPQZWAKHMCFASWCOZHVC3CACFE2B45U5NUPEXRX4HIV36SHIO4EGQW4IWEAS6PSQEYDT44GMGGEVK3FLLXWIWJSQJCVSXDFT3U3HGMUQZA7MOZBNRRTAE7KLJRZKZA",
+                "fareClass": "F",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 132.38,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 132.38,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "Lauda",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 2495",
+                  "time": [
+                    "2020-07-19T21:10:00.000",
+                    "2020-07-19T22:05:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-19T19:10:00.000Z",
+                    "2020-07-19T20:05:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 2495",
+              "time": [
+                "2020-07-19T21:10:00.000",
+                "2020-07-19T22:05:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-19T19:10:00.000Z",
+                "2020-07-19T20:05:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6368~ ~~BCN~07/19/2020 23:00~PMI~07/19/2020 23:59~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "QSLKE2I23FVVUEUYJDMHEJ35SEP7HRULGFCJCD37RX4POAANCDQDLMCGVS35K5CQGOV3Z2ELW52REXBIMYPOM3DLNGV633CWXGGW3WPOEWY7JEK6QJO6NN5P7PHXSTKL5PFLREI3S4ZAFTOSPAJC574NO7UDYVASYALRF37SIXWQUR4QDURA",
+                "fareClass": "W",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 30.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 30.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6368",
+                  "time": [
+                    "2020-07-19T23:00:00.000",
+                    "2020-07-19T23:59:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-19T21:00:00.000Z",
+                    "2020-07-19T21:59:00.000Z"
+                  ],
+                  "duration": "00:59"
+                }
+              ],
+              "flightNumber": "FR 6368",
+              "time": [
+                "2020-07-19T23:00:00.000",
+                "2020-07-19T23:59:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-19T21:00:00.000Z",
+                "2020-07-19T21:59:00.000Z"
+              ],
+              "duration": "00:59"
+            }
+          ]
+        },
+        {
+          "dateOut": "2020-07-20T00:00:00.000",
+          "flights": [
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6362~ ~~BCN~07/20/2020 08:00~PMI~07/20/2020 09:00~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "5FJZDZ3ZGNTHN5DMLS7DZER23WBRUSO7OMJE6YYC65TNDLDEQRNUNLZXS7WXYWB5JAZUBKQZLTY7YVSZJPJRUSKSSPSX3KTVBOGIPALBAB2Q2NOYZ2NFPBIGGWQWCR6CYLOTGJYAU2QHREDTQDNNKGHBO3S7HEVMV6NCK24Q5HMAZ2JZSGWA",
+                "fareClass": "T",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 23.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 23.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6362",
+                  "time": [
+                    "2020-07-20T08:00:00.000",
+                    "2020-07-20T09:00:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-20T06:00:00.000Z",
+                    "2020-07-20T07:00:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 6362",
+              "time": [
+                "2020-07-20T08:00:00.000",
+                "2020-07-20T09:00:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-20T06:00:00.000Z",
+                "2020-07-20T07:00:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2896~ ~~BCN~07/20/2020 12:50~PMI~07/20/2020 13:50~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "QSLKE2I23FVVUEUYJDMHEJ35SEP7HRULGFCJCD37RX4POAANCDQEC3CHVHYJ2OWZQC2O2DSO4ZAK2MR33NXK3SCJ2C5QPHHNM447DZ7K5KVAVYL26JW3DFQ2XNF4ORLVKL7ZYRRFGBUMODGE6ZU7TSCZIZTJYBPBU733D5X7OW3NBNLLXJDQ",
+                "fareClass": "W",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 30.07,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 30.07,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 2896",
+                  "time": [
+                    "2020-07-20T12:50:00.000",
+                    "2020-07-20T13:50:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-20T10:50:00.000Z",
+                    "2020-07-20T11:50:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 2896",
+              "time": [
+                "2020-07-20T12:50:00.000",
+                "2020-07-20T13:50:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-20T10:50:00.000Z",
+                "2020-07-20T11:50:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6578~ ~~BCN~07/20/2020 14:30~PMI~07/20/2020 15:30~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "O5RSQMD4GJZOWPJNQ6X7WEQCYWKSXGCWMQO56KGZJLKWOTQWF2TGYQ35V3A3RDXOP225EVXSURJILKYI6PAHOQH42GUCQKBGOYW7NI7N5BW6WPBZMV2UTX3E2ALCUZDOLYX3OGQLGFYIBHW33TMYY5DFUWHQKW2DU7RC6XZEER6SC7WGXQTA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 21.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 21.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6578",
+                  "time": [
+                    "2020-07-20T14:30:00.000",
+                    "2020-07-20T15:30:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-20T12:30:00.000Z",
+                    "2020-07-20T13:30:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 6578",
+              "time": [
+                "2020-07-20T14:30:00.000",
+                "2020-07-20T15:30:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-20T12:30:00.000Z",
+                "2020-07-20T13:30:00.000Z"
+              ],
+              "duration": "01:00"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~1342~ ~~BCN~07/20/2020 20:10~PMI~07/20/2020 21:05~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "O5RSQMD4GJZOWPJNQ6X7WEQCYWKSXGCWMQO56KGZJLKWOTQWF2TPW57J4R6DECU3NNV4KTYSKVM4QTERC5VL2CTBVFYJLELR3I6EVMZZBX72JP3OL4PJ7QFQGB74227UU7G4N2YMTA76MDILAVIBSIPS5UMW7YX7XTRVBZDDFKRC67FWGVCA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 21.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 21.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 1342",
+                  "time": [
+                    "2020-07-20T20:10:00.000",
+                    "2020-07-20T21:05:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-20T18:10:00.000Z",
+                    "2020-07-20T19:05:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 1342",
+              "time": [
+                "2020-07-20T20:10:00.000",
+                "2020-07-20T21:05:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-20T18:10:00.000Z",
+                "2020-07-20T19:05:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~2495~ ~~BCN~07/20/2020 21:10~PMI~07/20/2020 22:05~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "O5RSQMD4GJZOWPJNQ6X7WEQCYWKSXGCWMQO56KGZJLKWOTQWF2TMRTSOBPHA34DBEGD6ZQANUR6S673ZCCN4NEJTKG7QGCHWCJD4NLQ5SPE6ZLQSS3Q3MFTD3WOUUHPGXZZNBSFHM3ZCM6K5DBMK4OAC6LELPKKF5R26NSI3JICHWFUEGPPA",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 21.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 21.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "Lauda",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 2495",
+                  "time": [
+                    "2020-07-20T21:10:00.000",
+                    "2020-07-20T22:05:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-20T19:10:00.000Z",
+                    "2020-07-20T20:05:00.000Z"
+                  ],
+                  "duration": "00:55"
+                }
+              ],
+              "flightNumber": "FR 2495",
+              "time": [
+                "2020-07-20T21:10:00.000",
+                "2020-07-20T22:05:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-20T19:10:00.000Z",
+                "2020-07-20T20:05:00.000Z"
+              ],
+              "duration": "00:55"
+            },
+            {
+              "faresLeft": -1,
+              "flightKey": "FR~6368~ ~~BCN~07/20/2020 22:35~PMI~07/20/2020 23:35~~",
+              "infantsLeft": 18,
+              "regularFare": {
+                "fareKey": "O5RSQMD4GJZOWPJNQ6X7WEQCYWKSXGCWMQO56KGZJLKWOTQWF2TIZTQSUKMVTKSIOKTLW25FG7EMRQ3QFEHF6YP6FQSY2SIAHRH6UBBMMWS6RX64WAKX3FAQH2BJSTR7PC2CNH5GFSXULIZW6W52S45TND7FUQJVNNTZX677ZNI4HGFAIU3A",
+                "fareClass": "N",
+                "fares": [
+                  {
+                    "type": "ADT",
+                    "amount": 21.99,
+                    "count": 1,
+                    "hasDiscount": false,
+                    "publishedFare": 21.99,
+                    "discountInPercent": 0,
+                    "hasPromoDiscount": false,
+                    "discountAmount": 0
+                  }
+                ]
+              },
+              "operatedBy": "",
+              "segments": [
+                {
+                  "segmentNr": 0,
+                  "origin": "BCN",
+                  "destination": "PMI",
+                  "flightNumber": "FR 6368",
+                  "time": [
+                    "2020-07-20T22:35:00.000",
+                    "2020-07-20T23:35:00.000"
+                  ],
+                  "timeUTC": [
+                    "2020-07-20T20:35:00.000Z",
+                    "2020-07-20T21:35:00.000Z"
+                  ],
+                  "duration": "01:00"
+                }
+              ],
+              "flightNumber": "FR 6368",
+              "time": [
+                "2020-07-20T22:35:00.000",
+                "2020-07-20T23:35:00.000"
+              ],
+              "timeUTC": [
+                "2020-07-20T20:35:00.000Z",
+                "2020-07-20T21:35:00.000Z"
+              ],
+              "duration": "01:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "serverTimeUTC": "2020-05-05T10:32:05.651Z"
+}
