@@ -1,13 +1,17 @@
 # Pet project: Flight Price Scraper
-This project aims to get prices from different airlines, convert them to a common format
+This pet project aims to get prices from different airlines, convert them to a common format
 and send them to the Flight Price Stream Process via Kafka.
 
 
 # Install
+
+Local development:
+
+    pip install -e .
     
-Requirements:
+Install module:
+
     python setup.py
-    pip install -r requirements.txt
 
 Create topic flights:
 

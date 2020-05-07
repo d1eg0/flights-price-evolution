@@ -3,7 +3,7 @@ import asyncio
 import asynctest
 from aiohttp import ClientSession
 
-from scraper.entities.ports.raynair import RyanairResponseConverter, RynairRequest
+from scraper.entities.ports.ryanair import RyanairResponseConverter, RynairRequest
 from scraper.entities.response import AirlineResponse
 from scraper.services.operators import Operations
 

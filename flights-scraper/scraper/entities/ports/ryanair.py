@@ -4,8 +4,42 @@ from scraper.entities.response import AirlineResponse, AirlineResponseConverter
 
 class RyanairResponseConverter(AirlineResponseConverter):
     @staticmethod
+    def _get_trips(trips):
+        for trip in trips:
+            yield {
+                "origin": trip["origin"],
+                "destination": trip["destination"],
+                "dates": list(RyanairResponseConverter._get_dates(trip["dates"]))
+            }
+
+    @staticmethod
+    def _get_dates(dates):
+        for trip_date in dates:
+            yield {
+                "date_out": trip_date["dateOut"],
+                "flights": list(RyanairResponseConverter._get_flights(trip_date["flights"]))
+            }
+
+    @staticmethod
+    def _get_flights(flights):
+        for flight in flights:
+            yield {
+                "flight_number": flight["flightNumber"],
+                "fares": list(RyanairResponseConverter._get_fares(flight["regularFare"]["fares"])),
+                "time": flight["timeUTC"]
+            }
+
+    @staticmethod
+    def _get_fares(fares):
+        for fare in fares:
+            yield {
+                "amount": fare["amount"]
+            }
+
+    @staticmethod
     def get_response_from_json(raw_json: dict) -> AirlineResponse:
-        airline_response = AirlineResponse(ts=raw_json['serverTimeUTC'], trips=raw_json['trips'])
+        trips_doc = list(RyanairResponseConverter._get_trips(raw_json["trips"]))
+        airline_response = AirlineResponse(ts=raw_json['serverTimeUTC'], trips=trips_doc)
         return airline_response
 
 
