@@ -22,7 +22,6 @@ sbt test
 ```
 
 ## Install
-
 Install the flights-scraper python package:
 ```bash
 cd flights-scraper
@@ -34,8 +33,7 @@ Install Kafka and start the server as described in <https://kafka.apache.org/qui
 ./kafka-topics.sh --create --bootstrap-server 0.0.0.0:9092 --replication-factor 1 --partitions 1 --topic flights
 ```
 
-## Run in local
-
+## Run in local
 Run flights-streams to process incoming prices:
 ```bash
 cd flights-streams
