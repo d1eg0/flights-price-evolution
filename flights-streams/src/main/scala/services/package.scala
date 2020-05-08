@@ -2,15 +2,14 @@ package object services {
 
   import entities.InputSchema
   import org.apache.spark.sql.DataFrame
-  import org.apache.spark.sql.expressions.Window
   import org.apache.spark.sql.functions.{
-    asc,
     col,
     element_at,
     explode,
     from_json,
-    row_number,
-    unix_timestamp
+    min,
+    unix_timestamp,
+    window
   }
 
   def parse_json(df: DataFrame): DataFrame = {
@@ -64,14 +63,14 @@ package object services {
 
   }
 
-  def get_cheapest_flights(df: DataFrame): DataFrame = {
-    val byRoute = Window
-      .partitionBy(col("origin"), col("destination"))
-      .orderBy(asc("amount"))
-
-    df.withColumn("priceOrder", row_number().over(byRoute))
-      .filter("priceOrder=1")
-      .drop("priceOrder")
+  def get_cheapest_flights(df: DataFrame, windowDuration: String): DataFrame = {
+    df.groupBy(
+        window(col("ts"), windowDuration, "5 minutes"),
+        col("origin"),
+        col("destination"),
+        col("departure_time")
+      )
+      .agg(min(col("amount")).alias("amount"))
   }
 
 }
