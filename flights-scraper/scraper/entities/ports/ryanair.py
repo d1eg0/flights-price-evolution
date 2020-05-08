@@ -23,11 +23,12 @@ class RyanairResponseConverter(AirlineResponseConverter):
     @staticmethod
     def _get_flights(flights):
         for flight in flights:
-            yield {
-                "flight_number": flight["flightNumber"],
-                "fares": list(RyanairResponseConverter._get_fares(flight["regularFare"]["fares"])),
-                "time": flight["timeUTC"]
-            }
+            if 'regularFare' in flight:
+                yield {
+                    "flight_number": flight["flightNumber"],
+                    "fares": list(RyanairResponseConverter._get_fares(flight["regularFare"]["fares"])),
+                    "time": flight["timeUTC"]
+                }
 
     @staticmethod
     def _get_fares(fares):

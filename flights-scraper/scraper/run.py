@@ -1,6 +1,6 @@
 import asyncio
-import random
 import logging
+import random
 import signal
 import sys
 from asyncio import sleep

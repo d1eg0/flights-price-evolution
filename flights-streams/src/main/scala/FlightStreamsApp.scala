@@ -1,11 +1,15 @@
 import org.apache.spark.sql.SparkSession
 import services._
+import config.ConfigHandler
 
 object FlightStreamsApp extends App {
 
+  val inputConfig = ConfigHandler.getInputConfig(args)
+  ConfigHandler.print(inputConfig)
+
   val spark = SparkSession.builder
     .appName("Flight Streams")
-    .master("local[2]")
+    .master(inputConfig.sparkMaster)
     .getOrCreate()
 
   spark.sparkContext.setLogLevel("ERROR")
@@ -17,7 +21,8 @@ object FlightStreamsApp extends App {
     .load()
 
   val flightsExploded = parse_json(flights)
-  val cheapestFlights = get_cheapest_flights(flightsExploded, "10 minutes")
+  val cheapestFlights =
+    get_cheapest_flights(flightsExploded, inputConfig.windowDuration)
 
   val query = cheapestFlights.writeStream
     .outputMode("complete")
