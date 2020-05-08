@@ -34,11 +34,14 @@ Install Kafka and start the server as described in <https://kafka.apache.org/qui
 ```
 
 ## Run in local
-Run flights-streams to process incoming prices:
+Run flights-streams to process incoming prices in 10 minutes windows:
 ```bash
 cd flights-streams
 sbt run
 ```
+Running with another time window:
+```bash
+sbt "run --window-duration "60 seconds""
 
 Run flights-scraper to gather prices:
 ```bash
