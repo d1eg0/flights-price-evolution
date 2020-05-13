@@ -1,7 +1,7 @@
 package object services {
 
   import entities.InputSchema
-  import org.apache.spark.sql.DataFrame
+  import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
   import org.apache.spark.sql.functions.{
     col,
     element_at,
@@ -12,8 +12,29 @@ package object services {
     window
   }
 
-  def parse_json(df: DataFrame): DataFrame = {
+  case class FlightPrice(
+      ts: java.sql.Timestamp,
+      origin: String,
+      destination: String,
+      flightNumber: String,
+      departureTime: java.sql.Date,
+      arrivalTime: java.sql.Date,
+      amount: Double
+  )
+
+  case class MinFlightPrice(
+      ts: java.sql.Timestamp,
+      origin: String,
+      destination: String,
+      departureTime: java.sql.Date,
+      amount: Double
+  )
+
+  def parse_json(
+      df: DataFrame
+  )(implicit sparkSession: SparkSession): Dataset[FlightPrice] = {
     import org.apache.spark.sql.types.{DateType, TimestampType}
+    import sparkSession.implicits._
     df.select(
         from_json(col("value").cast("string"), InputSchema.schema).alias("data")
       )
@@ -49,28 +70,41 @@ package object services {
           .alias("ts"),
         col("origin"),
         col("destination"),
-        col("flight_number"),
+        col("flight_number").as("flightNumber"),
         unix_timestamp(col("departure_time"), "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
           .cast(TimestampType)
           .cast(DateType)
-          .alias("departure_time"),
+          .alias("departureTime"),
         unix_timestamp(col("arrival_time"), "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
           .cast(TimestampType)
           .cast(DateType)
-          .alias("arrival_time"),
+          .alias("arrivalTime"),
         col("fare.amount").alias("amount")
       )
+      .as[FlightPrice]
 
   }
 
-  def get_cheapest_flights(df: DataFrame, windowDuration: String): DataFrame = {
+  def get_cheapest_flights(
+      df: Dataset[FlightPrice],
+      windowDuration: String
+  )(implicit sparkSession: SparkSession): Dataset[MinFlightPrice] = {
+    import sparkSession.implicits._
     df.groupBy(
         window(col("ts"), windowDuration, "5 minutes"),
         col("origin"),
         col("destination"),
-        col("departure_time")
+        col("departureTime")
       )
       .agg(min(col("amount")).alias("amount"))
+      .select(
+        col("window.start").as("ts"),
+        col("origin"),
+        col("destination"),
+        col("departureTime"),
+        col("amount")
+      )
+      .as[MinFlightPrice]
   }
 
 }

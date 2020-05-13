@@ -7,7 +7,7 @@ object FlightStreamsApp extends App {
   val inputConfig = ConfigHandler.getInputConfig(args)
   ConfigHandler.print(inputConfig)
 
-  val spark = SparkSession.builder
+  implicit val spark: SparkSession = SparkSession.builder
     .appName("Flight Streams")
     .master(inputConfig.sparkMaster)
     .getOrCreate()
