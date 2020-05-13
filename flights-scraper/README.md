@@ -11,7 +11,7 @@ Local development:
     
 Install module:
 
-    python setup.py
+    python setup.py install
 
 Create topic flights:
 
