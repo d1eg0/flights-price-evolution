@@ -3,11 +3,11 @@ package config
 import scopt.OParser
 
 case class Config(
-    windowDuration: String = "10 minutes",
+    windowDuration: String = "1 minutes",
     sparkMaster: String = "local[2]"
 )
 
-object ConfigHandler {
+object InputConfigParser {
   def getInputConfig(args: Array[String]): Config = {
     val builder = OParser.builder[Config]
     val parser = {

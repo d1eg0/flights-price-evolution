@@ -4,12 +4,14 @@ import random
 import signal
 import sys
 from time import sleep
+import argparse
 
 from scraper.entities.ports.ryanair import RynairRequest, RyanairResponseConverter
 from scraper.services.operators import Operations
 
 # configure logging
 logging.basicConfig(format='[%(levelname)s] - %(asctime)s - %(name)s - %(message)s', level=logging.ERROR)
+logging.getLogger("__main__").setLevel(logging.DEBUG)
 logging.getLogger("scraper").setLevel(logging.DEBUG)
 logger = logging.getLogger(__name__)
 
@@ -19,7 +21,7 @@ def terminate_process(signal_number, frame):
     sys.exit()
 
 
-def run_process():
+def run_process(interval=3600):
     flight_request_pmi_bcn = RynairRequest()
     flight_request_pmi_bcn.destination = "BCN"
     flight_request_pmi_mad = RynairRequest()
@@ -39,13 +41,17 @@ def run_process():
         loop.run_until_complete(push_futures)
 
         # sleep random seconds
-        sleep_time = random.randint(30, 60)
+        sleep_time = random.randint(int(interval-interval*0.10), interval)
         sleep(sleep_time)
 
 
 if __name__ == '__main__':
     signal.signal(signal.SIGTERM, terminate_process)
     signal.signal(signal.SIGINT, terminate_process)
+    parser = argparse.ArgumentParser(description='Parse flights prices.')
+    parser.add_argument('--interval', type=int, default=3600)
+    args = parser.parse_args()
     logger.info("Starting process")
-    run_process()
+    logger.info("Scrape interval: {} seconds".format(args.interval))
+    run_process(args.interval)
     logger.info("Ending process")

@@ -1,7 +1,7 @@
 package object services {
 
+  import org.mongodb.scala.bson._
   import entities.InputSchema
-  import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
   import org.apache.spark.sql.functions.{
     col,
     element_at,
@@ -11,14 +11,16 @@ package object services {
     unix_timestamp,
     window
   }
+  import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
+  import org.apache.spark.sql.types.TimestampType
 
   case class FlightPrice(
       ts: java.sql.Timestamp,
       origin: String,
       destination: String,
       flightNumber: String,
-      departureTime: java.sql.Date,
-      arrivalTime: java.sql.Date,
+      departureTime: java.sql.Timestamp,
+      arrivalTime: java.sql.Timestamp,
       amount: Double
   )
 
@@ -26,14 +28,23 @@ package object services {
       ts: java.sql.Timestamp,
       origin: String,
       destination: String,
-      departureTime: java.sql.Date,
+      departureTime: java.sql.Timestamp,
       amount: Double
-  )
+  ) {
+    def toJson: Document = {
+      Document(
+        "ts" -> this.ts,
+        "origin" -> this.origin,
+        "destination" -> this.destination,
+        "departureTime" -> this.departureTime,
+        "amount" -> this.amount
+      )
+    }
+  }
 
   def parse_json(
       df: DataFrame
   )(implicit sparkSession: SparkSession): Dataset[FlightPrice] = {
-    import org.apache.spark.sql.types.{DateType, TimestampType}
     import sparkSession.implicits._
     df.select(
         from_json(col("value").cast("string"), InputSchema.schema).alias("data")
@@ -73,11 +84,9 @@ package object services {
         col("flight_number").as("flightNumber"),
         unix_timestamp(col("departure_time"), "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
           .cast(TimestampType)
-          .cast(DateType)
           .alias("departureTime"),
         unix_timestamp(col("arrival_time"), "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'")
           .cast(TimestampType)
-          .cast(DateType)
           .alias("arrivalTime"),
         col("fare.amount").alias("amount")
       )
@@ -90,8 +99,9 @@ package object services {
       windowDuration: String
   )(implicit sparkSession: SparkSession): Dataset[MinFlightPrice] = {
     import sparkSession.implicits._
-    df.groupBy(
-        window(col("ts"), windowDuration, "5 minutes"),
+    df.withWatermark("ts", "30 seconds")
+      .groupBy(
+        window(col("ts"), windowDuration),
         col("origin"),
         col("destination"),
         col("departureTime")

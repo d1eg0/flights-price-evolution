@@ -1,11 +1,11 @@
 import org.apache.spark.sql.SparkSession
 import services._
-import config.ConfigHandler
+import config.InputConfigParser
 
 object FlightStreamsApp extends App {
 
-  val inputConfig = ConfigHandler.getInputConfig(args)
-  ConfigHandler.print(inputConfig)
+  val inputConfig = InputConfigParser.getInputConfig(args)
+  InputConfigParser.print(inputConfig)
 
   implicit val spark: SparkSession = SparkSession.builder
     .appName("Flight Streams")
@@ -17,6 +17,7 @@ object FlightStreamsApp extends App {
   val flights = spark.readStream
     .format("kafka")
     .option("kafka.bootstrap.servers", "0.0.0.0:9092")
+    .option("startingoffsets", "earliest")
     .option("subscribe", "flights")
     .load()
 
@@ -24,9 +25,12 @@ object FlightStreamsApp extends App {
   val cheapestFlights =
     get_cheapest_flights(flightsExploded, inputConfig.windowDuration)
 
+  val writerInstance = new MongoForeachWriter
+
   val query = cheapestFlights.writeStream
-    .outputMode("complete")
-    .format("console")
+    .foreach(writerInstance)
+    .outputMode("append")
+    //.format("console")
     .start()
 
   query.awaitTermination()
