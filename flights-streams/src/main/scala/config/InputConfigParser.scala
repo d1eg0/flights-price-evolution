@@ -6,7 +6,8 @@ case class Config(
     windowDuration: String = "1 minutes",
     sparkMaster: String = "local[2]",
     kafkaBootstrapServer: String = "0.0.0.0:9092",
-    kafkaTopic: String = "flights"
+    kafkaTopic: String = "flights",
+    mongoHosts: String = "0.0.0.0:27017"
 )
 
 object InputConfigParser {
@@ -20,12 +21,15 @@ object InputConfigParser {
         opt[String]('w', "window-duration")
           .action((x, c) => c.copy(windowDuration = x))
           .text("window duration. E.g. '10 minutes'"),
-        opt[String]('m', "master")
+        opt[String]('s', "spark-master")
           .action((x, c) => c.copy(sparkMaster = x))
           .text("Spark master host. E.g. spark://localhost:7077"),
         opt[String]('b', "bootstrap-server")
           .action((x, c) => c.copy(kafkaBootstrapServer = x))
           .text("Kafka bootstrap server. E.g. 0.0.0.0:9092"),
+        opt[String]('m', "mongo-hosts")
+          .action((x, c) => c.copy(mongoHosts = x))
+          .text("MongoDB hosts. E.g. 0.0.0.0:27017"),
         opt[String]('t', "topic")
           .action((x, c) => c.copy(kafkaTopic = x))
           .text("Kafka topic. E.g. flights")
@@ -42,11 +46,12 @@ object InputConfigParser {
     inputConfig
   }
 
-  def print(config: Config) = {
+  def print(config: Config): Unit = {
     println(s"Spark master: ${config.sparkMaster}")
     println(s"Window duration: ${config.windowDuration}")
     println(s"Kafka bootstrap server: ${config.kafkaBootstrapServer}")
     println(s"Kafka topic: ${config.kafkaTopic}")
+    println(s"Mongo hosts: ${config.mongoHosts}")
   }
 
 }

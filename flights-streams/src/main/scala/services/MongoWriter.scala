@@ -9,9 +9,9 @@ import org.mongodb.scala.model.Updates.{combine, set}
 import scala.concurrent._
 import scala.concurrent.duration.Duration
 
-class MongoWriter {
+class MongoWriter(hosts: String) {
   private val uri: String =
-    "mongodb://appuser:apppass@127.0.0.1:27017/admin?retryWrites=true&w=majority"
+    s"mongodb://appuser:apppass@$hosts/admin?retryWrites=true&w=majority"
   private val client: MongoClient = MongoClient(uri)
   private val collection: MongoCollection[Document] = client
     .getDatabase("flights")
@@ -21,7 +21,7 @@ class MongoWriter {
     * Updates the stored price if the new one is less than the stored price.
     * Creates a new price if there is not a stored price for the route and departure time of the new price.
     * If the new price is greater or equal is discarded.
-    * @param value
+    * @param value MinFlightPrice instance
     */
   def update(value: MinFlightPrice): Unit = {
     val findCondition = Filters.and(
@@ -64,18 +64,18 @@ class MongoWriter {
     Await.result(future, Duration(3, "seconds"))
   }
 
-  def close() = {
+  def close(): Unit = {
     client.close()
   }
 }
 
-class MongoForeachWriter extends ForeachWriter[MinFlightPrice] {
+class MongoForeachWriter(hosts: String) extends ForeachWriter[MinFlightPrice] {
   @transient var writer: MongoWriter = _
   var localPartition: Long = 0
   var localEpochId: Long = 0
 
   override def open(partitionId: Long, epochId: Long): Boolean = {
-    writer = new MongoWriter
+    writer = new MongoWriter(hosts)
     localPartition = partitionId
     localEpochId = epochId
     true

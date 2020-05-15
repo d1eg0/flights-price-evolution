@@ -15,3 +15,9 @@ lazy val config = (project in file("."))
       "org.scalatest" %% "scalatest" % "3.1.1" % Test
     )
   )
+
+// Docker conf
+enablePlugins(JavaAppPackaging)
+enablePlugins(DockerPlugin)
+
+dockerExposedPorts ++= Seq(4040)

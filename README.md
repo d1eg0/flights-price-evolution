@@ -48,12 +48,68 @@ sbt run
 ```
 Running with another time window:
 ```bash
-sbt 'run --window-duration "60 seconds"'
+sbt 'run --window-duration "4 hours"'
 ```
 
 Run flights-scraper to gather prices:
 ```bash
-python -m scraper.run --interval 3600
+python -m scraper.run --interval 3600 --origins PMI --destinations BCN MAD VLC
+```
+
+## Docker
+
+1) Create the network:
+```bash
+docker network create app-tier --driver bridge
+```
+
+2) Run Zookeeper:
+```bash
+docker run -d --name zookeeper-server \
+    --network app-tier \
+    -e ALLOW_ANONYMOUS_LOGIN=yes \
+    bitnami/zookeeper:latest
+```
+
+3) Run Kafka server:
+```bash
+docker run -d --name kafka-server \
+    --network app-tier \
+    -e ALLOW_PLAINTEXT_LISTENER=yes \
+    -e KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181 \
+    bitnami/kafka:latest
+```
+
+4) Run MongoDB:
+```bash
+docker run -d --name mongodb-server \
+    --network app-tier \
+    bitnami/mongodb:latest
+```
+
+4) Create image and run flights-streams:
+```bash
+sbt docker:publishLocal
+docker run --net app-tier \
+    -p 4040:4040 \
+    --memory 2048mb flights-streams:1.0 \
+    --window-duration "60 seconds" \
+    --bootstrap-server "kafka-server:9092" \
+    --mongo-hosts "mongodb-server:27017"
+```
+
+5) Create image and run flights-scraper:
+```bash
+docker build -t flights-scraper .
+docker run --net app-tier -it --rm --name flights-scraper-app flights-scraper
+```
+
+6) Run a MongoDB client:
+```bash
+docker run -it --rm \
+    --network app-tier \
+    bitnami/mongodb:latest mongo \
+    --host mongodb-server
 ```
 
 ## Run tests

@@ -9,6 +9,7 @@ object FlightStreamsApp extends App {
 
   implicit val spark: SparkSession = SparkSession.builder
     .appName("Flight Streams")
+    .config("spark.sql.session.timeZone", "UTC")
     .master(inputConfig.sparkMaster)
     .getOrCreate()
 
@@ -25,7 +26,7 @@ object FlightStreamsApp extends App {
   val cheapestFlights =
     get_cheapest_flights(flightsExploded, inputConfig.windowDuration)
 
-  val writerInstance = new MongoForeachWriter
+  val writerInstance = new MongoForeachWriter(inputConfig.mongoHosts)
 
   val query = cheapestFlights.writeStream
     .foreach(writerInstance)
