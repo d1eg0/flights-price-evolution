@@ -87,7 +87,7 @@ docker run -d --name mongodb-server \
     bitnami/mongodb:latest
 ```
 
-4) Create image and run flights-streams:
+5) Create image and run flights-streams:
 ```bash
 sbt docker:publishLocal
 docker run --net app-tier \
@@ -98,13 +98,13 @@ docker run --net app-tier \
     --mongo-hosts "mongodb-server:27017"
 ```
 
-5) Create image and run flights-scraper:
+6) Create image and run flights-scraper:
 ```bash
 docker build -t flights-scraper .
 docker run --net app-tier -it --rm --name flights-scraper-app flights-scraper
 ```
 
-6) Run a MongoDB client:
+7) Run a MongoDB client:
 ```bash
 docker run -it --rm \
     --network app-tier \
