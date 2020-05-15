@@ -28,6 +28,7 @@ package object services {
       ts: java.sql.Timestamp,
       origin: String,
       destination: String,
+      flightNumber: String,
       departureTime: java.sql.Timestamp,
       amount: Double
   ) {
@@ -36,6 +37,7 @@ package object services {
         "ts" -> this.ts,
         "origin" -> this.origin,
         "destination" -> this.destination,
+        "flightNumber" -> this.flightNumber,
         "departureTime" -> this.departureTime,
         "amount" -> this.amount
       )
@@ -104,6 +106,7 @@ package object services {
         window(col("ts"), windowDuration),
         col("origin"),
         col("destination"),
+        col("flightNumber"),
         col("departureTime")
       )
       .agg(min(col("amount")).alias("amount"))
@@ -111,6 +114,7 @@ package object services {
         col("window.start").as("ts"),
         col("origin"),
         col("destination"),
+        col("flightNumber"),
         col("departureTime"),
         col("amount")
       )

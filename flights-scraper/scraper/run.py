@@ -21,17 +21,23 @@ def terminate_process(signal_number, frame):
     sys.exit()
 
 
-def run_process(interval=3600):
-    flight_request_pmi_bcn = RynairRequest()
-    flight_request_pmi_bcn.destination = "BCN"
-    flight_request_pmi_mad = RynairRequest()
-    flight_request_pmi_mad.destination = "MAD"
-    all_requests = [flight_request_pmi_bcn, flight_request_pmi_mad]
+def run_process(interval=3600, kafka_bootstrap_servers="0.0.0.0:9092", kafka_topic="flights", origins=[],
+                destinations=[]):
+    Operations.kafka_topic = kafka_topic
+    Operations.kafka_bootstrap_servers = kafka_bootstrap_servers
+    flight_requests = []
+    for origin in origins:
+        for destination in destinations:
+            flight_request = RynairRequest()
+            flight_request.origin = origin
+            flight_request.destination = destination
+            flight_requests.append(flight_request)
     flight_response_converter = RyanairResponseConverter()
     loop = asyncio.get_event_loop()
     while True:
         # get prices
-        price_tasks = [Operations.get_data(flight_request, flight_response_converter) for flight_request in all_requests]
+        price_tasks = [Operations.get_data(flight_request, flight_response_converter) for flight_request in
+                       flight_requests]
         price_futures = asyncio.gather(*price_tasks)
         price_responses = loop.run_until_complete(price_futures)
 
@@ -41,7 +47,7 @@ def run_process(interval=3600):
         loop.run_until_complete(push_futures)
 
         # sleep random seconds
-        sleep_time = random.randint(int(interval-interval*0.10), interval)
+        sleep_time = random.randint(int(interval - interval * 0.10), interval)
         sleep(sleep_time)
 
 
@@ -50,8 +56,18 @@ if __name__ == '__main__':
     signal.signal(signal.SIGINT, terminate_process)
     parser = argparse.ArgumentParser(description='Parse flights prices.')
     parser.add_argument('--interval', type=int, default=3600)
+    parser.add_argument('--topic', type=str, default="flights")
+    parser.add_argument('--bootstrap-servers', type=str, default="0.0.0.0:9092")
+    parser.add_argument('--origins', nargs="+", required=True)
+    parser.add_argument('--destinations', nargs="+", required=True)
     args = parser.parse_args()
     logger.info("Starting process")
     logger.info("Scrape interval: {} seconds".format(args.interval))
-    run_process(args.interval)
+    logger.info("Origins:{origins} Destinations:{destinations}".format(origins=args.origins,
+                                                                       destinations=args.destinations))
+    run_process(interval=args.interval,
+                kafka_bootstrap_servers=args.bootstrap_servers,
+                kafka_topic=args.topic,
+                origins=args.origins,
+                destinations=args.destinations)
     logger.info("Ending process")

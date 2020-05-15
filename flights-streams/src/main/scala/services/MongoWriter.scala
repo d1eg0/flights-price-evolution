@@ -42,9 +42,11 @@ class MongoWriter {
       set("origin", value.origin),
       set("destination", value.destination),
       set("departureTime", value.departureTime),
+      set("flightNumber", value.flightNumber),
       set("amount", value.amount)
     )
     val onlyUpdatesDoc = combine(
+      set("flightNumber", value.flightNumber),
       set("amount", value.amount)
     )
     val findFuture = collection.countDocuments(findCondition).toFuture()
@@ -59,7 +61,7 @@ class MongoWriter {
         updateOptions
       )
       .toFuture()
-    Await.result(future, Duration(10, "seconds"))
+    Await.result(future, Duration(3, "seconds"))
   }
 
   def close() = {

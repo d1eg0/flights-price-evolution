@@ -13,6 +13,8 @@ logger = logging.getLogger(__name__)
 
 class Operations:
     _kafka_producer = None
+    kafka_bootstrap_servers = "0.0.0.0:9092"
+    kafka_topic = "flights"
 
     @staticmethod
     async def fetch(session, url) -> dict:
@@ -32,8 +34,9 @@ class Operations:
 
     @staticmethod
     async def push_data(airline_response: AirlineResponse) -> object:
-        logger.debug("Pushing data to Kafka")
-        config = {"bootstrap_servers": "0.0.0.0:9092",
+        start_message = """Pushing data to Kafka topic:{topic} server:{server}"""
+        logger.debug(start_message.format(topic=Operations.kafka_topic, server=Operations.kafka_bootstrap_servers))
+        config = {"bootstrap_servers": Operations.kafka_bootstrap_servers,
                   "client_id": "flights-scraper",
                   "acks": 1,
                   "retries": 3}
@@ -41,7 +44,7 @@ class Operations:
             Operations._kafka_producer = KafkaProducer(**config,
                                                        value_serializer=lambda m: json.dumps(m).encode('ascii'))
 
-        future = Operations._kafka_producer.send(topic="flights", value=airline_response.to_dict())
+        future = Operations._kafka_producer.send(topic=Operations.kafka_topic, value=airline_response.to_dict())
         record_metadata = future.get(timeout=10)
         logger.debug("Pushed data to Kafka")
         return record_metadata

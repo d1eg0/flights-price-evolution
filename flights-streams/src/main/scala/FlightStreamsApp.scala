@@ -16,9 +16,9 @@ object FlightStreamsApp extends App {
 
   val flights = spark.readStream
     .format("kafka")
-    .option("kafka.bootstrap.servers", "0.0.0.0:9092")
+    .option("kafka.bootstrap.servers", inputConfig.kafkaBootstrapServer)
     .option("startingoffsets", "earliest")
-    .option("subscribe", "flights")
+    .option("subscribe", inputConfig.kafkaTopic)
     .load()
 
   val flightsExploded = parse_json(flights)
@@ -30,7 +30,6 @@ object FlightStreamsApp extends App {
   val query = cheapestFlights.writeStream
     .foreach(writerInstance)
     .outputMode("append")
-    //.format("console")
     .start()
 
   query.awaitTermination()
