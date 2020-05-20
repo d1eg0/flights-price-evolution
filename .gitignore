@@ -42,3 +42,5 @@ build
 
 #general
 *.class
+
+.db

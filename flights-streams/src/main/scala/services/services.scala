@@ -1,18 +1,18 @@
-package object services {
+import org.apache.spark.sql.functions.{
+  col,
+  element_at,
+  explode,
+  from_json,
+  min,
+  unix_timestamp,
+  window
+}
+import org.apache.spark.sql.types.TimestampType
+import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
+import org.mongodb.scala.bson._
+import entities.InputSchema
 
-  import org.mongodb.scala.bson._
-  import entities.InputSchema
-  import org.apache.spark.sql.functions.{
-    col,
-    element_at,
-    explode,
-    from_json,
-    min,
-    unix_timestamp,
-    window
-  }
-  import org.apache.spark.sql.{DataFrame, Dataset, SparkSession}
-  import org.apache.spark.sql.types.TimestampType
+package object services {
 
   case class FlightPrice(
       ts: java.sql.Timestamp,
