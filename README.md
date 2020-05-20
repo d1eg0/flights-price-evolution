@@ -1,5 +1,4 @@
 # Flight price evolution
-## Overview
 This is a pet project to gather airline prices from their APIs and store minimum prices per route in a time window.
 
 The project has 2 main modules. The following diagram shows the workflow:
