@@ -1,7 +1,7 @@
 version: '3'
 services:
   mongo-server:
-    image: "bitnami/mongodb:latest"
+    image: "bitnami/mongodb:4.2.6"
     ports:
       - "27017:27017"
     volumes:
@@ -11,13 +11,13 @@ services:
   zookeeper-server:
     environment:
       - ALLOW_ANONYMOUS_LOGIN=yes
-    image: "bitnami/zookeeper:latest"
+    image: "bitnami/zookeeper:3.6.1"
 
   kafka-server:
     environment:
       - ALLOW_PLAINTEXT_LISTENER=yes
       - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper-server:2181
-    image: "bitnami/kafka:latest"
+    image: "bitnami/kafka:2.5.0"
     ports: 
       - "8000:8000"
       - "9092:9092"
