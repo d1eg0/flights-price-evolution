@@ -10,7 +10,7 @@ setup(name='Flights Scraper',
       url='',
       packages=['scraper'],
       install_requires=[
-          "aiohttp==3.6.2",
+          "aiohttp==3.7.4",
           "kafka-python==2.0.1"
       ],
       test_requires=[
